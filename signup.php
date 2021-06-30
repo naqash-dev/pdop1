@@ -2,6 +2,8 @@
 include "config.php";
 session_start();
 $msg = "";
+
+
 if(isset($_POST['SignUp'])){
 $username = $_POST['Username'];
 	$email = $_POST['email'];
